@@ -1,4 +1,10 @@
-baseURL = "https://javi-tech-1971.github.io/PersonalDoc/"
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "/"
 theme = "hugo-book"
+title = "Crónica de un Fracaso Anunciado: Mi Lucha con Gemini"
+defaultContentLanguage = "es"
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    title = "Crónica de un Fracaso: Mi Lucha con Gemini"
+    weight = 1
