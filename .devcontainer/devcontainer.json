@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "curl -L 'https://github.com/gohugoio/hugo/releases/download/v0.148.0/hugo_extended_0.148.0_linux-amd64.tar.gz' -o hugo.tar.gz && tar -xzf hugo.tar.gz && sudo mv hugo /usr/local/bin/hugo && rm hugo.tar.gz README.md LICENSE"
+}
